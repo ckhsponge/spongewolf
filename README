@@ -2,7 +2,12 @@
 
 This is an example Rails application that uses the Spongecell API. It is intended to be as simple as possible. There is no database and javascript will be kept to a minimum.
 
-Currently the primary function of Spongewolf is to create pretty calendars and event lists.
+Currently the primary function of Spongewolf is to create pretty calendar and event list widgets.
+
+There are 3 widgets
+1. Flash List View
+2. Flash Social Network Widget (used by Shakira)
+3. HTML Boxed Calendar
 
 == Features
 Creating a Spongecell account
