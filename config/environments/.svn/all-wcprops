@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/7868/dev/spongewolf/config/environments
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/7868/dev/spongewolf/config/environments/production.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/7868/dev/spongewolf/config/environments/development.rb
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7868/dev/spongewolf/config/environments/test.rb
+END

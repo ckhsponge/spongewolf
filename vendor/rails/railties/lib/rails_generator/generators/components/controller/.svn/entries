@@ -1,0 +1,55 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/controller
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+USAGE
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+334eb6dcaa907a9902e134f5f2bd9679
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+controller_generator.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+dc6d5969d1797ba6f2cb4758948a84de
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+templates
+dir
+

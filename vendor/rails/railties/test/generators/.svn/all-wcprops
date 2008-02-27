@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/test/generators
+END
+generator_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/test/generators/generator_test_helper.rb
+END
+rails_scaffold_generator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/test/generators/rails_scaffold_generator_test.rb
+END
+rails_model_generator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/test/generators/rails_model_generator_test.rb
+END
+rails_resource_generator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/test/generators/rails_resource_generator_test.rb
+END

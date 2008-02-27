@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/test/fixtures/bad_fixtures
+END
+blank_line
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/test/fixtures/bad_fixtures/blank_line
+END
+duplicate_attributes
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/test/fixtures/bad_fixtures/duplicate_attributes
+END
+missing_value
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/test/fixtures/bad_fixtures/missing_value
+END
+attr_with_spaces
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/test/fixtures/bad_fixtures/attr_with_spaces
+END
+attr_with_numeric_first_char
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/test/fixtures/bad_fixtures/attr_with_numeric_first_char
+END

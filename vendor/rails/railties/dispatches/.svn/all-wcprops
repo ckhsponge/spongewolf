@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/dispatches
+END
+gateway.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/dispatches/gateway.cgi
+END
+dispatch.fcgi
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/dispatches/dispatch.fcgi
+END
+dispatch.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/dispatches/dispatch.rb
+END

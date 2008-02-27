@@ -1,0 +1,40 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activesupport/lib/active_support/core_ext/float
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+rounding.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+aa7c4ac255e40b7ec6b9bb15c560ce9f
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

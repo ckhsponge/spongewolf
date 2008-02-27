@@ -1,0 +1,52 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activerecord/lib/active_record/vendor
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+db2.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+a2bbc3bf1dee625ca5571c3bb2b7a67f
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+mysql.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+cce1a9414201abdac4e51864cb7592f7
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

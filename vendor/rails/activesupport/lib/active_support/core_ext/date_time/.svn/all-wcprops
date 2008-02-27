@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/core_ext/date_time
+END
+conversions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/core_ext/date_time/conversions.rb
+END
+calculations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/core_ext/date_time/calculations.rb
+END

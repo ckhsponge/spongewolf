@@ -1,0 +1,55 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/railties/lib/rails
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+plugin
+dir
+
+plugin.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+1ddca694ab83329011e707bd8d4fe860
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+version.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+3e48614a88e1027b45481ef5bec492aa
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

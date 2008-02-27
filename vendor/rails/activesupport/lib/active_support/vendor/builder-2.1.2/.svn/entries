@@ -1,0 +1,55 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activesupport/lib/active_support/vendor/builder-2.1.2
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+blankslate.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+724d3f100f03c25e5de5054886fc3363
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+builder
+dir
+
+builder.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+80f725825cbd92437a509360081ba3af
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

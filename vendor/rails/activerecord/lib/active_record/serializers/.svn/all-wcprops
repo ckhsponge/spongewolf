@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/lib/active_record/serializers
+END
+xml_serializer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/lib/active_record/serializers/xml_serializer.rb
+END
+json_serializer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/lib/active_record/serializers/json_serializer.rb
+END

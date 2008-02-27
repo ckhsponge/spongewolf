@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/integration_test
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/integration_test/USAGE
+END
+integration_test_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/integration_test/integration_test_generator.rb
+END

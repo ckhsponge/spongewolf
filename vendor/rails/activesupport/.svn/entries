@@ -1,0 +1,94 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activesupport
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+CHANGELOG
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+b378250b0cefcbd0115a79451f116561
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+MIT-LICENSE
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+8e11d5530bab3c7732205a5febfe41f7
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+README
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+6d5825d5dbcc4f0d3d158618837d7b23
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+Rakefile
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+e0923ff6b1976d860539371461f92dc1
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+install.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+9da3f42670ac0f6264d66f1427b2970d
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+lib
+dir
+
+test
+dir
+

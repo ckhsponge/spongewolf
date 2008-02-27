@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues
+END
+layout.erb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb
+END
+template_error.erb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/template_error.erb
+END
+_request_and_response.erb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response.erb
+END
+unknown_action.erb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/unknown_action.erb
+END
+missing_template.erb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/missing_template.erb
+END
+routing_error.erb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/routing_error.erb
+END
+_trace.erb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace.erb
+END
+diagnostics.erb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/templates/rescues/diagnostics.erb
+END

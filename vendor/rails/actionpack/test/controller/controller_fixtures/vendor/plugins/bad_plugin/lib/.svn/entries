@@ -1,0 +1,40 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/actionpack/test/controller/controller_fixtures/vendor/plugins/bad_plugin/lib
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+plugin_controller.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

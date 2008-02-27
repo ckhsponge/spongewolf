@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/install.rb
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/init.rb
+END
+unit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/unit_test.rb
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/USAGE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/Rakefile
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/uninstall.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/README
+END
+plugin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/plugin.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/MIT-LICENSE
+END
+generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/generator.rb
+END
+tasks.rake
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/plugin/templates/tasks.rake
+END

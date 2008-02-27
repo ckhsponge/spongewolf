@@ -1,0 +1,52 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activeresource/lib/active_resource/formats
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+json_format.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+b98fcb43b900ee1f9b51bbe7a4925b52
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+xml_format.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+3adb12c339c8e19d91570a0ef8ee95e6
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

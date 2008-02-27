@@ -1,0 +1,34 @@
+%h3
+  Sign in to Spongewolf
+%br
+You must already have an account at
+=link_to Spongewolf::Base::HOST,Spongewolf::Base::HOST
+- form_tag do
+  User Name
+  = text_field_tag "user_name"
+  %br
+  Password
+  = password_field_tag "password"
+  %br
+  = submit_tag "Submit"
+%br
+%br
+%br
+%br
+%h3
+  Create an account
+%br
+- form_tag :action=>"create_account" do
+  Name
+  = text_field_tag "first_name"
+  %br
+  User Name
+  = text_field_tag "user_name"
+  %br
+  Email Address
+  = text_field_tag "email"
+  %br
+  Password
+  = password_field_tag "password"
+  %br
+  = submit_tag "Submit"

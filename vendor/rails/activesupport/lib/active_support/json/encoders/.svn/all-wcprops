@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders
+END
+object.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/object.rb
+END
+enumerable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/enumerable.rb
+END
+false_class.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/false_class.rb
+END
+symbol.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/symbol.rb
+END
+string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/string.rb
+END
+true_class.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/true_class.rb
+END
+regexp.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/regexp.rb
+END
+hash.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/hash.rb
+END
+time.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/time.rb
+END
+nil_class.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/nil_class.rb
+END
+date_time.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/date_time.rb
+END
+date.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/date.rb
+END
+numeric.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activesupport/lib/active_support/json/encoders/numeric.rb
+END

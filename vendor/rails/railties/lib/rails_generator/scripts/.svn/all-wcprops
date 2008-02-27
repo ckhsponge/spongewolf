@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/scripts
+END
+update.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/scripts/update.rb
+END
+destroy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/scripts/destroy.rb
+END
+generate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/scripts/generate.rb
+END

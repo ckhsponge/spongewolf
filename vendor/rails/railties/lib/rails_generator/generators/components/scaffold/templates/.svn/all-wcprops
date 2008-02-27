@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates
+END
+view_edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_edit.html.erb
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/functional_test.rb
+END
+view_index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_index.html.erb
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/helper.rb
+END
+view_new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_new.html.erb
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/style.css
+END
+view_show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/view_show.html.erb
+END
+layout.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/layout.html.erb
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/scaffold/templates/controller.rb
+END

@@ -1,0 +1,40 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/actionpack/test/controller/deprecation
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+deprecated_base_methods_test.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+8647163ed3d5fb4e4bbf214e2d06edb8
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

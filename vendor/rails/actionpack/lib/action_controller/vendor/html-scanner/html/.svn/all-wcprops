@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html
+END
+sanitizer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html/sanitizer.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html/version.rb
+END
+tokenizer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html/tokenizer.rb
+END
+selector.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html/selector.rb
+END
+document.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html/document.rb
+END
+node.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_controller/vendor/html-scanner/html/node.rb
+END

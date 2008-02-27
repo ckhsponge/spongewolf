@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/lib/active_record/locking
+END
+pessimistic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/lib/active_record/locking/pessimistic.rb
+END
+optimistic.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activerecord/lib/active_record/locking/optimistic.rb
+END

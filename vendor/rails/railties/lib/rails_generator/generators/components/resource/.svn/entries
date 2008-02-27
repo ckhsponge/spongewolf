@@ -1,0 +1,55 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components/resource
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+USAGE
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+3ab2e11c07b12c37053cafba835db5bf
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+resource_generator.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+6b08d172d8c2b2f2de2abd46aceeb5b5
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+templates
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/test/fixtures/layout_tests/layouts
+END
+item.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/test/fixtures/layout_tests/layouts/item.rhtml
+END
+layout_test.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/test/fixtures/layout_tests/layouts/layout_test.rhtml
+END
+third_party_template_library.mab
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/test/fixtures/layout_tests/layouts/third_party_template_library.mab
+END
+multiple_extensions.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/test/fixtures/layout_tests/layouts/multiple_extensions.html.erb
+END

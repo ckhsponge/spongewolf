@@ -1,0 +1,53 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activesupport/lib/active_support/values
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+time_zone.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+03a1ffa8443d384fa3d50943248ba020
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+unicode_tables.dat
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+3dbd2c4b3e8ad234003ad55025670126
+2008-02-18T23:46:08.442188Z
+7869
+chris
+has-props
+

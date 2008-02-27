@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activeresource/test/fixtures
+END
+person.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activeresource/test/fixtures/person.rb
+END
+street_address.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activeresource/test/fixtures/street_address.rb
+END
+beast.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/7869/dev/spongewolf/vendor/rails/activeresource/test/fixtures/beast.rb
+END

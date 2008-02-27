@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_view/helpers/javascripts
+END
+effects.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_view/helpers/javascripts/effects.js
+END
+controls.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_view/helpers/javascripts/controls.js
+END
+prototype.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_view/helpers/javascripts/prototype.js
+END
+dragdrop.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/7869/dev/spongewolf/vendor/rails/actionpack/lib/action_view/helpers/javascripts/dragdrop.js
+END

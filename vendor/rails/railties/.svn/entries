@@ -1,0 +1,119 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/railties
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+CHANGELOG
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+fbbc52ec02c5576f0bcaea854307c83f
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+MIT-LICENSE
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+6a8ad2b5c119854f85d8cd99c338dca3
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+README
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+d6c1fbcf028923cc0480fff4ab459a21
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+Rakefile
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+0fa9e0407159a5eef18130d11e354d9e
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+bin
+dir
+
+builtin
+dir
+
+configs
+dir
+
+dispatches
+dir
+
+doc
+dir
+
+environments
+dir
+
+fresh_rakefile
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+17f2f134da4cd31ea095d5868ca89e86
+2008-02-18T23:46:08.442188Z
+7869
+chris
+has-props
+
+helpers
+dir
+
+html
+dir
+
+lib
+dir
+
+test
+dir
+

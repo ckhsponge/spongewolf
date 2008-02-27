@@ -1,0 +1,52 @@
+8
+
+dir
+8134
+https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/activerecord/test/connections/native_sqlite3
+https://spongecell.svn.engineyard.com
+
+
+
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a73215b7-872d-db11-88ce-0014220fd306
+
+connection.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+57f654dcebe9f03074deb7cb154a788f
+2008-02-18T23:46:08.442188Z
+7869
+chris
+
+in_memory_connection.rb
+file
+
+
+
+
+2008-02-18T23:46:08.000000Z
+5860a3d87ef9fdace847af65f9b8f153
+2008-02-18T23:46:08.442188Z
+7869
+chris
+

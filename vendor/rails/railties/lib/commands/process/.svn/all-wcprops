@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/commands/process
+END
+spawner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/commands/process/spawner.rb
+END
+reaper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/commands/process/reaper.rb
+END
+spinner.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/commands/process/spinner.rb
+END
+inspector.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/7869/dev/spongewolf/vendor/rails/railties/lib/commands/process/inspector.rb
+END

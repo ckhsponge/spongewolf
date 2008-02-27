@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/7875/dev/spongewolf/app/views/spongewolf
+END
+calendars.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/7868/dev/spongewolf/app/views/spongewolf/calendars.html.haml
+END
+widget.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/7868/dev/spongewolf/app/views/spongewolf/widget.html.haml
+END
+events.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/7868/dev/spongewolf/app/views/spongewolf/events.html.haml
+END
+sign_in.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/8148/dev/spongewolf/app/views/spongewolf/sign_in.html.haml
+END
+widgets.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/7868/dev/spongewolf/app/views/spongewolf/widgets.html.haml
+END
