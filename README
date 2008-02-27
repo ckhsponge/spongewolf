@@ -1,4 +1,5 @@
 == Welcome to Spongewolf
+http://spongewolf.com
 
 This is an example Rails application that uses the Spongecell API. It is intended to be as simple as possible. There is no database and javascript will be kept to a minimum.
 
