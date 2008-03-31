@@ -3,7 +3,7 @@ class SpongewolfController < ApplicationController
   def sign_in
     if params[:user_name]
       authenticate
-      if @spongewolf.signed_in?
+      if @signed_in
         redirect_to :action=>'calendars'
         return
       else
@@ -30,44 +30,50 @@ class SpongewolfController < ApplicationController
   end
   
   def calendars
-    @calendars = @spongewolf.calendars
+    @calendars = Sponger::Calendar.find(:all)
   end
   
   def events
     @calendar_id = params[:calendar_id]
-    @events = @spongewolf.events(:calendar_id=>@calendar_id)
+    @events = Sponger::Event.find(:all,:params=>{:calendar_id=>@calendar_id})
   end
   
   def create_event
     @calendar_id = params[:calendar_id]
-    @spongewolf.create_event(:calendar_id=>@calendar_id)
+    Sponger::Event.create(:calendar_id=>@calendar_id,:title=>"Sponger Event",:start_time=>Time.now)
     redirect_to :action=>"events",:calendar_id=>@calendar_id
   end
   
   def widget
     @widget_id = params[:id]
-    @widget = @spongewolf.widget(:id=>@widget_id)
+    @widget = Sponger::Widget.find(@widget_id)
+    #puts @widget.inspect
+    #puts @widget.colors.inspect
   end
   
   def widgets
     @calendar_id = params[:calendar_id]
-    @widgets = @spongewolf.widgets(:calendar_id=>@calendar_id)
+    @widgets = Sponger::Widget.find(:all,:calendar_id=>@calendar_id)
   end
   
   def create_widget
     @calendar_id = params[:calendar_id]
     raise "no calendar id" unless @calendar_id
-    @spongewolf.create_widget(:calendar_id=>@calendar_id,:class_name=>params[:class_name])
+    Sponger::Widget.create(:calendar_id=>@calendar_id,:class_name=>params[:class_name])
     redirect_to :action=>"widgets",:calendar_id=>@calendar_id
   end
 
   def init_session
-    session[:spongewolf] ||= {}
-    @signed_in = !!session[:spongewolf][:token]
-    @spongewolf = Spongewolf::Base.new(:token=>session[:spongewolf][:token])
+    Sponger::Resource.clear_private_data
+    @signed_in = !!session[:spongewolf_token]
+    Sponger::Resource.token = Sponger::AuthorizationToken.new(:value=>session[:spongewolf_token]) if session[:spongewolf_token]
   end
   
   def authenticate
-    session[:spongewolf][:token] = @spongewolf.token(:user_name=>params[:user_name],:password=>params[:password])
+    token = Sponger::AuthorizationToken.create(:user_name=>params[:user_name],:password=>params[:password])
+    if token && token.respond_to?('value') && token.value
+      @signed_in = true
+      session[:spongewolf_token] = token.value
+    end
   end
 end

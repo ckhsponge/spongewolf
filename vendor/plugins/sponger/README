@@ -1,0 +1,12 @@
+This is Sponger!
+Ruby wrapper for the Spongecell calendar and event API
+http://spongecell.com
+
+Get it with git:
+git clone git://github.com/ckhsponge/sponger.git
+
+Install it as a plugin into your rails app:
+ruby script/plugin install http://sponger.googlecode.com/svn/trunk/plugins/sponger
+
+Read about it on the World Wide Web:
+http://code.google.com/p/sponger/
