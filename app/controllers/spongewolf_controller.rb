@@ -38,6 +38,23 @@ class SpongewolfController < ApplicationController
     @events = Sponger::Event.find(:all,:params=>{:calendar_id=>@calendar_id})
   end
   
+  def edit_event
+    @calendar_id = params[:calendar_id]
+    @event = Sponger::Event.find(params[:id])
+  end
+  
+  def save_event
+    @calendar_id = params[:calendar_id]
+    @event = Sponger::Event.find(params[:id])
+    #@event.load(params[:event])
+    @event.title = params[:event][:title]
+    @event.start_time = Time.local(params[:event]['start_time(1i)'],params[:event]['start_time(2i)'],params[:event]['start_time(3i)'],params[:event]['start_time(4i)'],params[:event]['start_time(5i)'])
+    @event.end_time = @event.start_time
+    @event.save
+    redirect_to :action=>"events",:calendar_id=>@calendar_id
+  end
+    
+  
   def create_event
     @calendar_id = params[:calendar_id]
     Sponger::Event.create(:calendar_id=>@calendar_id,:title=>"Sponger Event",:start_time=>Time.now)
