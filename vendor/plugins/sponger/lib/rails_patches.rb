@@ -18,9 +18,11 @@ end
 class ActiveResource::Base
   #rails patch http://dev.rubyonrails.org/ticket/8798
   def self.instantiate_collection(collection, prefix_options = {})
-    puts collection.class.to_s
-    puts collection.size.to_s
-    puts collection.keys.inspect
+    return nil if collection.kind_of?(String) && collection.strip.empty? #ckh
+    #puts collection.class.to_s
+    #puts collection.to_s
+    #puts collection.size.to_s
+    #puts collection.keys.inspect if collection && collection.respond_to?('keys')
     collection.delete("total") if collection.is_a?(Hash) && collection["total"] #ckh
     if collection.is_a?(Hash) && collection.size == 1
       value = collection.values.first

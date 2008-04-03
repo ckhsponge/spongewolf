@@ -18,9 +18,9 @@ class SpongewolfController < ApplicationController
   end
   
   def create_account
-    @spongewolf.create_account(params)
+    Sponger::User.create(:user_name=>params[:user_name],:password=>params[:password],:first_name=>params[:first_name],:email=>params[:email])
     authenticate
-    if @spongewolf.signed_in?
+    if @signed_in
       redirect_to :action=>'calendars'
       return
     else
@@ -57,7 +57,7 @@ class SpongewolfController < ApplicationController
   
   def create_event
     @calendar_id = params[:calendar_id]
-    Sponger::Event.create(:calendar_id=>@calendar_id,:title=>"Sponger Event",:start_time=>Time.now)
+    Sponger::Event.create(:calendar_id=>@calendar_id,:title=>"Sponger Event",:start_time=>Time.now,:end_time=>Time.now+1.hour)
     redirect_to :action=>"events",:calendar_id=>@calendar_id
   end
   
