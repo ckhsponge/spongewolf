@@ -1,61 +1,0 @@
-8
-
-dir
-8134
-https://spongecell.svn.engineyard.com/dev/spongewolf/vendor/rails/railties/lib/rails_generator/generators/components
-https://spongecell.svn.engineyard.com
-
-
-
-2008-02-18T23:46:08.442188Z
-7869
-chris
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-a73215b7-872d-db11-88ce-0014220fd306
-
-controller
-dir
-
-integration_test
-dir
-
-mailer
-dir
-
-migration
-dir
-
-model
-dir
-
-observer
-dir
-
-plugin
-dir
-
-resource
-dir
-
-scaffold
-dir
-
-session_migration
-dir
-
-web_service
-dir
-
