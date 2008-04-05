@@ -1,9 +1,0 @@
-- @calendars ||= []
-= @calendars.size
-Calendars
-%br
-- for calendar in @calendars
-  = h calendar.name
-  = link_to "Events", :action=>"events", :calendar_id=>calendar.id
-  = link_to "Widgets", :action=>"widgets", :calendar_id=>calendar.id
-  %br

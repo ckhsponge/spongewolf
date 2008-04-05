@@ -1,0 +1,4 @@
+- form_for :event, @event, :url => params.merge(:action => 'save_event') do |f|
+  = f.text_field :title
+  = datetime_select :event, :start_time
+  = submit_tag "Save"
