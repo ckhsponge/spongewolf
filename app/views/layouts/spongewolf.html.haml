@@ -2,6 +2,7 @@
   %head
     %title
       Spongewolf
+    <link href="/stylesheets/blueprint_8992.css" media="screen" rel="Stylesheet" type="text/css" />
   %body
     %h1
       Spongewolf
@@ -22,4 +23,11 @@
     %br
     %br
     = @content_for_layout
-    
+    %br
+    %br
+    #spongewolf_footer
+    Spongecell has great
+    = link_to "online calendars","http://spongecell.com"
+    you can embed in your website. To subscribe to the Spongewolf sms list text "go spongewolf" to SPONGE (665543).
+    For questions, comments or answers send email to
+    = mail_to "spongewolf@spongecel.com", "Spongewolf.", :encode=>:javascript
