@@ -48,10 +48,18 @@ class SpongewolfController < ApplicationController
     @event = Sponger::Event.find(params[:id])
     #@event.load(params[:event])
     @event.title = params[:event][:title]
-    @event.start_time = Time.local(params[:event]['start_time(1i)'],params[:event]['start_time(2i)'],params[:event]['start_time(3i)'],params[:event]['start_time(4i)'],params[:event]['start_time(5i)'])
-    @event.end_time = @event.start_time
+    @event.start_time = parse_time(params[:event],:start_time)
+    @event.end_time = parse_time(params[:event],:end_time)
+    @event.tzid = Sponger::TimeZone.tzid_from_human(params[:event][:time_zone])
+    @event.description = params[:event][:description]
+    @event.all_day = params[:event][:all_day]
     @event.save
     redirect_to :action=>"events",:calendar_id=>@calendar_id
+  end
+  
+  def parse_time(params,key)
+    key = key.to_s
+    Time.local(params["#{key}(1i)"],params["#{key}(2i)"],params["#{key}(3i)"],params["#{key}(4i)"],params["#{key}(5i)"])
   end
     
   

@@ -1,4 +1,57 @@
-.spongewolf_footer {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+body {
+background:white none repeat scroll 0%;
+color:#333333;
+line-height:1;
+}
+h1, h2, h3, h4, h5, h6 {
+clear:both;
+color:#111111;
+font-family:Helvetica,Arial,"Lucida Grande",Verdana,sans-serif;
+}
+h1 {
+font-size:3em;
+}
+h2 {
+font-size:2em;
+}
+h3 {
+font-size:1.5em;
+line-height:2;
+}
+h4 {
+font-size:1.2em;
+font-weight:bold;
+line-height:1.25;
+}
+h5 {
+font-size:1em;
+font-weight:bold;
+}
+h6 {
+font-size:1em;
+}
+
+.header {
+	padding:10px;
+}
+.content {
+	padding:10px;
+}
+.footer {
 	width:100%;
 	background-color:#ffbb00;
+	margin:0px;
+}
+.footer_text {
+	padding:10px;
 }

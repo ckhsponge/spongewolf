@@ -1,4 +1,21 @@
 - form_for :event, @event, :url => params.merge(:action => 'save_event') do |f|
-  = f.text_field :title
-  = datetime_select :event, :start_time
+  %p
+    Title
+    = f.text_field :title
+  %p
+    All Day
+    = check_box :event,:all_day
+  %p
+    Start
+    = datetime_select :event, :start_time
+  %p
+    End
+    = datetime_select :event, :end_time
+  %p
+    Time Zone
+    = select :event, :time_zone, Sponger::TimeZone::HUMAN_NAMES
+  %p
+    Description
+    %br
+    = f.text_area :description, :rows=>4
   = submit_tag "Save"

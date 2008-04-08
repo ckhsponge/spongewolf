@@ -43,14 +43,10 @@ class Sponger::TimeZone < Sponger::Resource
   'London'=>'Europe/London',
   'Rome'=>'Europe/Rome'
   }
-  @@human_names = HUMANS_TO_TZIDS.keys.sort
+  HUMAN_NAMES = HUMANS_TO_TZIDS.keys.sort
   
   def self.tzid_from_human(human)
-    return HUMANS_TO_TZIDS(human)
-  end
-  
-  def self.human_names
-    @@human_names
+    return HUMANS_TO_TZIDS[human]
   end
 
 end
