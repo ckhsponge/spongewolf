@@ -2,11 +2,55 @@ This is Sponger!
 Ruby wrapper for the Spongecell calendar and event API
 http://spongecell.com
 
-Get it with git:
-git clone git://github.com/ckhsponge/sponger.git
-
 Install it as a plugin into your rails app:
 ruby script/plugin install http://sponger.googlecode.com/svn/trunk/plugins/sponger
 
 Read about it on the World Wide Web:
 http://code.google.com/p/sponger/
+
+Sponger is developed inside of the Spongewolf project located at:
+http://github.com/ckhsponge/spongewolf
+Git Spongewolf:
+git clone git://github.com/ckhsponge/spongewolf
+(Sponger is located in the vendor/plugins directory)
+Svn Sponger:
+svn export http://sponger.googlecode.com/svn/trunk/plugins/sponger
+
+The Sponger portion of the project is mirrored at google code for script/plugin compatibility and for using their forums.
+
+-----
+Quick start example
+-----
+
+Getting a rails app set up to use Sponger for event management is easy! Below are some steps for creating a rails app that displays a web page with a list of events from the site http://remindblast.com.
+
+1. Create the rails app
+Make sure you have rails 2.0 or later installed. If you're not sure then run:
+gem install rails
+To generate your rails app, run the following command:
+rails sponger_test
+
+2. Generate a controller for your app
+Change directory into sponger_test and run:
+ruby script/generate controller sponger
+
+3. Add a method to your controller
+Edit the file app/controller/sponger_controller.rb and the following method:
+  #gets all events from 2008-04-15 that were created from remindblast.com
+  def events
+    @events = Sponger::Event.find(:all,:params=>{:calendar_id=>137619,:start_time=>Date.new(2008,04,15)})
+  end
+
+4. Add a view
+Create the file app/views/sponger/events.rhtml and paste the following into it:
+<% for event in @events -%>
+  <%= h event.title %>
+  <br>
+<% end -%>
+
+5. Start your server
+ruby script/server start
+
+6. Check the results
+Point your browser at http://localhost:3000/sponger/events
+You should see a list of events that were created as reminders. Done!
