@@ -2,12 +2,16 @@ class SpongewolfController < ApplicationController
   before_filter :init_session
   def sign_in
     if params[:user_name]
-      authenticate
-      if @signed_in
-        redirect_to :action=>'calendars'
-        return
-      else
-        flash.now[:note] = "Unable to sign in"
+      begin
+        authenticate
+        if @signed_in
+          redirect_to :action=>'calendars'
+          return
+        else
+          flash.now[:note] = "Unable to sign in"
+        end
+      rescue Exception=>exc
+        flash.now[:note] = exc.to_s
       end
     end
   end
@@ -30,7 +34,18 @@ class SpongewolfController < ApplicationController
   end
   
   def calendars
-    @calendars = Sponger::Calendar.find(:all)
+    begin 
+      @calendars = Sponger::Calendar.find(:all)
+    rescue Sponger::SpongerException => exc
+      @signed_in = false
+      session[:spongewolf_token] = nil
+      Sponger::Resource.clear_private_data
+      flash[:note] = exc.to_s
+      flash[:note] += "\n\nViewing the welcome email will automatically verify your email address. "+
+      "Alternatively you may sign in to Spongecell and change your email address in account settings."
+      redirect_to :action=>'sign_in'
+    end
+    #puts @calendars.inspect
   end
   
   def events

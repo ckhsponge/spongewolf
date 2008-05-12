@@ -30,27 +30,30 @@ gem install rails
 To generate your rails app, run the following command:
 rails sponger_test
 
-2. Generate a controller for your app
+2. Install the plugin
 Change directory into sponger_test and run:
+ruby script/plugin install http://sponger.googlecode.com/svn/trunk/plugins/sponger
+
+3. Generate a controller for your app
 ruby script/generate controller sponger
 
-3. Add a method to your controller
+4. Add a method to your controller
 Edit the file app/controller/sponger_controller.rb and the following method:
   #gets all events from 2008-04-15 that were created from remindblast.com
   def events
     @events = Sponger::Event.find(:all,:params=>{:calendar_id=>137619,:start_time=>Date.new(2008,04,15)})
   end
 
-4. Add a view
+5. Add a view
 Create the file app/views/sponger/events.rhtml and paste the following into it:
 <% for event in @events -%>
   <%= h event.title %>
   <br>
 <% end -%>
 
-5. Start your server
+6. Start your server
 ruby script/server start
 
-6. Check the results
+7. Check the results
 Point your browser at http://localhost:3000/sponger/events
 You should see a list of events that were created as reminders. Done!

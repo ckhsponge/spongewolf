@@ -31,6 +31,8 @@ class ActiveResource::Base
       else
         [ instantiate_record(value, prefix_options) ]
       end
+    elsif collection.is_a?(String)
+      raise Sponger::SpongerException.new(collection) #most likely collection is an error message
     else
       collection.collect! { |record| instantiate_record(record, prefix_options) }
     end

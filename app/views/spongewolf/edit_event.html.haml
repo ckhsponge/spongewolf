@@ -13,7 +13,7 @@
     = datetime_select :event, :end_time
   %p
     Time Zone
-    = select :event, :time_zone, Sponger::TimeZone::HUMAN_NAMES
+    = select :event, :time_zone, Sponger::TimeZone.options_for_select
   %p
     Description
     %br

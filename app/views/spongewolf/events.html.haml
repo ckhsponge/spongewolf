@@ -7,6 +7,7 @@ Events
 %br
 - for event in @events
   = h event.title
-  = h event.start_time
+  == -
+  = h event.start_time.strftime("%Y %b %d %H:%M")
   = link_to "Edit", :action=>"edit_event", :id=>event.id,:calendar_id=>@calendar_id
   %br

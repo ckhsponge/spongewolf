@@ -43,10 +43,51 @@ class Sponger::TimeZone < Sponger::Resource
   'London'=>'Europe/London',
   'Rome'=>'Europe/Rome'
   }
-  HUMAN_NAMES = HUMANS_TO_TZIDS.keys.sort
+  HUMAN_NAMES = [
+    '(GMT-11:00) Samoa',
+    '(GMT-10:00) Honolulu',
+    '(GMT-09:00) Anchorage',
+    '(GMT-08:00) Los Angeles',
+    '(GMT-07:00) Phoenix',
+    '(GMT-07:00) Denver',
+    '(GMT-06:00) Chicago',
+    '(GMT-05:00) New York',
+    '(GMT-04:00) Caracas',
+    '(GMT-03:30) Newfoundland',
+    '(GMT-03:00) Buenos Aires',
+    '(GMT-02:00) Mid-Atlantic',
+    '(GMT-01:00) Cape Verde Is.',
+    '(GMT-00:00) London',
+    '(GMT+01:00) Rome',
+    '(GMT+02:00) Pretoria',
+    '(GMT+03:00) Nairobi',
+    '(GMT+04:00) Abu Dhabi',
+    '(GMT+05:00) Islamabad',
+    '(GMT+06:00) Dhaka',
+    '(GMT+07:00) Bangkok',
+    '(GMT+08:00) Singapore',
+    '(GMT+09:00) Tokyo',
+    '(GMT+09:30) Adelaide',
+    '(GMT+10:00) Sydney',
+    '(GMT+10:30) Lord Howe',
+    '(GMT+11:00) New Caledonia',
+    '(GMT+11:30) Norfolk',
+    '(GMT+12:00) Auckland'
+  ]
   
   def self.tzid_from_human(human)
-    return HUMANS_TO_TZIDS[human]
+    tzid = HUMANS_TO_TZIDS[human.sub(/\(GMT(\+|\-)\d\d\:\d\d\)\s/,'')]
+    raise "tzid not found" unless tzid
+    tzid
+  end
+  
+  
+  def self.options_for_select
+    @@options_for_select ||= nil
+    return @@options_for_select if @@options_for_select 
+    @@options_for_select = []
+    HUMAN_NAMES.each{ |n| @@options_for_select << [n, n.gsub(/\(GMT(\+|\-)\d\d\:\d\d\)\s/,'')]}
+    @@options_for_select
   end
 
 end
