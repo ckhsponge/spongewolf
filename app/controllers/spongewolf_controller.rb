@@ -17,7 +17,7 @@ class SpongewolfController < ApplicationController
   end
   
   def sign_out
-    reset_session
+    sign_out_data
     redirect_to :action=>"sign_in"
   end
   
@@ -25,8 +25,10 @@ class SpongewolfController < ApplicationController
     Sponger::User.create(:user_name=>params[:user_name],:password=>params[:password],:first_name=>params[:first_name],:email=>params[:email])
     authenticate
     if @signed_in
-      redirect_to :action=>'calendars'
-      return
+      sign_out_data
+      flash[:note] = "Your account has been created. Before signing in you must verify your email address by "+
+      "viewing the welcome email or by signing in to Spongecell and changing your email address."
+      redirect_to :action=>"sign_in"
     else
       flash.now[:note] = "Unable to sign in"
       render :action=>"sign_in"
@@ -37,9 +39,7 @@ class SpongewolfController < ApplicationController
     begin 
       @calendars = Sponger::Calendar.find(:all)
     rescue Sponger::SpongerException => exc
-      @signed_in = false
-      session[:spongewolf_token] = nil
-      Sponger::Resource.clear_private_data
+      sign_out_data
       flash[:note] = exc.to_s
       flash[:note] += "\n\nViewing the welcome email will automatically verify your email address. "+
       "Alternatively you may sign in to Spongecell and change your email address in account settings."
@@ -101,6 +101,14 @@ class SpongewolfController < ApplicationController
     raise "no calendar id" unless @calendar_id
     Sponger::Widget.create(:calendar_id=>@calendar_id,:class_name=>params[:class_name])
     redirect_to :action=>"widgets",:calendar_id=>@calendar_id
+  end
+  
+  protected
+  
+  def sign_out_data
+    @signed_in = false
+    reset_session
+    Sponger::Resource.clear_private_data
   end
 
   def init_session
