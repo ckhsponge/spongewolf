@@ -38,6 +38,7 @@ class ActiveResource::Base
     end
   end
   
+  
   #http://dev.rubyonrails.org/ticket/9529
   def id_from_response(response)
     if responseLocation?
@@ -46,30 +47,31 @@ class ActiveResource::Base
       nil
     end
   end
-  
-  
-  #ckh interpretation of http://dev.rubyonrails.org/ticket/8566
-  def load(attributes)
-    raise ArgumentError, "expected an attributes Hash, got #{attributes.inspect}" unless attributes.is_a?(Hash)
-    @prefix_options, attributes = split_options(attributes)
-    attributes.each do |key, value|
-      @attributes[key.to_s] =
-        case value
-          when Array
-            resource = find_or_create_resource_for_collection(key)
-            #value.map { |attrs| puts "ATTR #{attrs.inspect}";resource.new(attrs) } 
-            value.map { |attrs| resource.new(attrs) unless attrs.kind_of? String } #don't continue to unwind data if we get to a string -ckh
-          when Hash
-            resource = find_or_create_resource_for(key)
-            resource.new(value)
-          else
-            value.dup rescue value
-        end
-    end
-    self
-  end
+#  
+#  
+#  #ckh interpretation of http://dev.rubyonrails.org/ticket/8566
+#  def load(attributes)
+#    raise ArgumentError, "expected an attributes Hash, got #{attributes.inspect}" unless attributes.is_a?(Hash)
+#    @prefix_options, attributes = split_options(attributes)
+#    attributes.each do |key, value|
+#      @attributes[key.to_s] =
+#        case value
+#          when Array
+#            resource = find_or_create_resource_for_collection(key)
+#            #value.map { |attrs| puts "ATTR #{attrs.inspect}";resource.new(attrs) } 
+#            value.map { |attrs| resource.new(attrs) unless attrs.kind_of? String } #don't continue to unwind data if we get to a string -ckh
+#          when Hash
+#            resource = find_or_create_resource_for(key)
+#            resource.new(value)
+#          else
+#            value.dup rescue value
+#        end
+#    end
+#    self
+#  end
 end
 
+#Spongecell specific patch for times stored local
 module ActiveSupport #:nodoc:
   module CoreExtensions #:nodoc:
     module Hash #:nodoc:

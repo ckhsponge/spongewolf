@@ -3,12 +3,19 @@ require File.dirname(__FILE__) + '/../test_helper'
 class SpongerTest < Test::Unit::TestCase
   def setup
     #token = Sponger::AuthorizationToken.create(:user_name=>"spongewolf@spongecell.com",:password=>"wolfy")
-    token = Sponger::AuthorizationToken.create(:user_name=>"purpose",:password=>"zzzz")
+    token = Sponger::AuthorizationToken.create(:user_name=>"spongertest",:password=>"spongertest")
     #puts "t: #{token.body.class} #{token.inspect} #{token.to_hash.inspect} #{token.to_param.inspect}"
     #puts "body: #{Hash.create_from_xml(token.body).inspect}"
     assert token
     assert token.value
   end
+  
+  def test_sign_in_failure
+    assert_raise(Sponger::SpongerException) do
+      Sponger::AuthorizationToken.create(:user_name=>"spongertest",:password=>"fakepassword")
+    end
+  end
+  
   def test_calendar
     calendars = Sponger::Calendar.find(:all)
     puts calendars.inspect
