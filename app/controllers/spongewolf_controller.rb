@@ -22,17 +22,19 @@ class SpongewolfController < ApplicationController
   end
   
   def create_account
-    Sponger::User.create(:user_name=>params[:user_name],:password=>params[:password],:first_name=>params[:first_name],:email=>params[:email])
+    @user = Sponger::User.create(:user_name=>params[:user_name],:password=>params[:password],:first_name=>params[:first_name],:email=>params[:email])
+    flash.now[:verification_response] = @user.verify_email_address
     authenticate
     if @signed_in
-      sign_out_data
-      flash[:note] = "Your account has been created. Before signing in you must verify your email address by "+
-      "viewing the welcome email or by signing in to Spongecell and changing your email address."
-      redirect_to :action=>"sign_in"
+      #sign_out_data
+      render :action=>"create_user_success"
     else
       flash.now[:note] = "Unable to sign in"
       render :action=>"sign_in"
     end
+  end
+  
+  def create_user_success
   end
   
   def calendars

@@ -50,6 +50,7 @@ class ActiveResource::Base
 #  
 #  
 #  #ckh interpretation of http://dev.rubyonrails.org/ticket/8566
+#  #the below method is needed in rails 2.0 but the problem seems to be fixed in rails 2.1
 #  def load(attributes)
 #    raise ArgumentError, "expected an attributes Hash, got #{attributes.inspect}" unless attributes.is_a?(Hash)
 #    @prefix_options, attributes = split_options(attributes)

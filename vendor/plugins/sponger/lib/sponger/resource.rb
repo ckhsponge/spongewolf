@@ -1,8 +1,8 @@
 class Sponger::Resource < ActiveResource::Base
   #production host:
-  HOST = "http://spongecell.com"
+  #HOST = "http://spongecell.com"
   #HOST = "http://calf.spongecell.com"
-  #HOST = "http://127.0.0.1:3001"
+  HOST = "http://127.0.0.1:3001"
   self.site = "#{HOST}/api"
   
   @@token = nil

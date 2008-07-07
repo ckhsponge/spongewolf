@@ -1,0 +1,13 @@
+%h3
+  Your account has been successfully been created!
+%br
+The account has been created however you must verify your email address before using it.
+Please check your email and follow the instructions.
+%br
+%br
+%b
+  Verification response:
+= h flash.now[:verification_response]
+%br
+%br
+= link_to "<< back to Spongewolf", "/"

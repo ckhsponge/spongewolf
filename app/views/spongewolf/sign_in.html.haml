@@ -32,3 +32,15 @@ You must already have an account at
   = password_field_tag "password"
   %br
   = submit_tag "Submit"
+%br
+%br
+%br
+%br
+%h3
+  Verify Email Address
+%br
+- form_tag :action=>"verify_email_address" do
+  Email Address
+  = text_field_tag "id"
+  %br
+  = submit_tag "Submit"
