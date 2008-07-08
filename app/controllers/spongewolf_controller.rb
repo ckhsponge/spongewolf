@@ -23,7 +23,8 @@ class SpongewolfController < ApplicationController
   
   def create_account
     @user = Sponger::User.create(:user_name=>params[:user_name],:password=>params[:password],:first_name=>params[:first_name],:email=>params[:email])
-    flash.now[:verification_response] = @user.verify_email_address
+    verification_response = @user.verify_email_address
+    flash.now[:verification_response] = verification_response.body
     authenticate
     if @signed_in
       #sign_out_data
